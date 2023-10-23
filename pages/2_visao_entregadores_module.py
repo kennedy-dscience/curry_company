@@ -83,7 +83,7 @@ def clean_code(df1):
     return df1
 
 #Import dataset
-df1 = pd.read_csv(r'C:\Users\kenne\Comunidade DS\FTC\CICLO 6\train22.csv')
+df = pd.read_csv(r'C:\Users\kenne\Comunidade DS\FTC\CICLO 6\train22.csv')
 
 #cleaning data set
 df1 = clean_code(df1)
@@ -95,7 +95,7 @@ avaliacao_media = (df1.loc[:, ['Delivery_person_Ratings', 'Road_traffic_density'
 st.header('Marketplace - Visão Entregadores')
 
 image_path = r'C:\Users\kenne\Comunidade DS\FTC\CICLO 6\logo.png'
- 
+image = Image.open(image_path)
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Cury Company')

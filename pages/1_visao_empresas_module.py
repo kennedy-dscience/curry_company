@@ -136,7 +136,7 @@ def clean_code(df1):
 # --------------------
 # Import dataset
 # --------------------
-df = pd.read_csv(r'C:\Users\kenne\Comunidade DS\FTC\CICLO 6\train22.csv')
+df = pd.read_csv(r'C:\Users\kenne\Comunidade DS\FTC\CICLO 6\pages\train22.csv')
 
 #  --------------------
 # Limpando os dados
@@ -158,7 +158,7 @@ px.bar( df_aux, x='order_date', y='qtde_entregas' )
 st.header('Marketplace - Visão Empresas')
 
 image_path = r'C:\Users\kenne\Comunidade DS\FTC\CICLO 6\logo.png'
-image = Image.open('logo.png')
+image = Image.open(image_path)
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Cury Company')
