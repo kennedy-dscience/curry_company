@@ -136,7 +136,7 @@ def clean_code(df1):
 # --------------------
 # Import dataset
 # --------------------
-df = pd.read_csv(r'C:..\datsa\train22.csv')
+df = pd.read_csv('..\datsa\train22.csv')
 
 #  --------------------
 # Limpando os dados
