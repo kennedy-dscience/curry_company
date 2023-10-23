@@ -94,7 +94,7 @@ avaliacao_media = (df1.loc[:, ['Delivery_person_Ratings', 'Road_traffic_density'
 #BARRA LATERAL
 st.header('Marketplace - Visão Entregadores')
 
-#image_path = r'C:\Users\kenne\OneDrive\Área de Trabalho\DS\repos\FTC\CICLO 6\logo.png'
+image_path = r'C:\Users\kenne\Comunidade DS\FTC\CICLO 6\logo.png'
  
 st.sidebar.image(image, width=120)
 

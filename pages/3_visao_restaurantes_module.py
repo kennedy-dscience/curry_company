@@ -101,7 +101,7 @@ df1 = clean_code(df)
 #BARRA LATERAL
 st.header('Marketplace - Visão Restaurantes')
 
-image_path = r'C:\Users\kenne\OneDrive\Área de Trabalho\DS\repos\FTC\CICLO 6\logo.png'
+image_path = r'C:\Users\kenne\Comunidade DS\FTC\CICLO 6\logo.png'
 image = Image.open(image_path)
 st.sidebar.image(image, width=120)
 
