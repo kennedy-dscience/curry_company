@@ -157,8 +157,8 @@ px.bar( df_aux, x='order_date', y='qtde_entregas' )
 #LAYOUT NO STREAMLIT
 st.header('Marketplace - Visão Empresas')
 
-image_path = r'C:\Users\kenne\Comunidade DS\FTC\CICLO 6\logo.png'
-image = Image.open(image_path)
+#image_path = r'C:\Users\kenne\Comunidade DS\FTC\CICLO 6\logo.png'
+image = Image.open('logo.png')
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Cury Company')
