@@ -128,7 +128,7 @@ def mean_cost_for_two_per_country(df1):
 # ==============================================================================
 # Importando o Dataset
 # =================================================
-df = pd.read_csv('zomato.csv')
+df = pd.read_csv('./dataset/zomato.csv')
 
 # =================================================
 # Limpeza dos dados
