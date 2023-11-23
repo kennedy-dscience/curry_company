@@ -15,8 +15,6 @@ from streamlit_folium import folium_static
 from pathlib import Path
 from haversine import haversine
 
-st.set_page_config(layout='wide', page_icon=':earth_africa:')
-
 #===================================================================
 #Funções
 #===================================================================
@@ -139,6 +137,7 @@ df1 = funcoes(df1)
 # =================================================
 # Barra Lateral
 # =================================================
+st.set_page_config(layout='wide', page_icon=':earth_africa:')
 image = Image.open('logo.png')
 st.sidebar.image(image, width=170)
 
