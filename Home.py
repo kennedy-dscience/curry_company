@@ -125,7 +125,7 @@ def map_general(df1):
 # ==============================================================================
 # Importando o Dataset
 # =================================================
-df = pd.read_csv('zomato.csv')
+df = pd.read_csv('./dataset/zomato.csv')
 df1 = df.copy()
 
 # =================================================
@@ -140,7 +140,7 @@ df2 = df1.copy()
 # Barra Lateral
 # =================================================
 image = Image.open('logo.png')
-st.sidebar.image(image, width=90)
+st.sidebar.image(image, width=170)
 
 st.sidebar.markdown('# Fome Zero')
 
