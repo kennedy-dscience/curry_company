@@ -140,7 +140,7 @@ df1 = funcoes(df1)
 # Barra Lateral
 # =================================================
 image = Image.open('logo.png')
-st.sidebar.image(Image, width=170)
+st.sidebar.image(image, width=170)
 
 st.sidebar.markdown('# Fome Zero')
 
