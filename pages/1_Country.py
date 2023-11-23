@@ -15,7 +15,7 @@ from streamlit_folium import folium_static
 from pathlib import Path
 from haversine import haversine
 
-st.set_page_config(page_title = 'Country', page_icon='🌎',layout='wide')
+st.set_page_config(page_title = 'Country', page_icon=':earth_africa:',layout='wide')
 
 #===================================================================
 #Funções
