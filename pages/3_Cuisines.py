@@ -140,7 +140,7 @@ def top_worst_cuisines(df1, restaurant_slider):
 # ==============================================================================
 # Importando o Dataset
 # =================================================
-df = pd.read_csv('zomato.csv')
+df = pd.read_csv('./dataset/zomato.csv')
 
 # =================================================
 # Limpeza dos dados
