@@ -130,7 +130,7 @@ def top_cities_cuisines(df1):
 #Importação do dataset:
 #===================================================================
 
-df = pd.read_csv('zomato.csv')
+df = pd.read_csv('./dataset/zomato.csv')
 
 #===================================================================
 #Limpeza do dataset:
